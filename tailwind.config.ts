@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-bg': 'rgba(242, 255, 255, 0.93)',
+        'custom-xl': '48px',
+        'custom': '54px',
+
       },
     },
   },
