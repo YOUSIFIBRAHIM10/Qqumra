@@ -5,7 +5,7 @@ import Headers from "./Componant/Headers/page";
 import Start from "./Componant/start/page";
 import Section3 from "./Componant/Hero/page";
 import Section4 from "./Componant/OurBlog/page";
-import Section5 from "./Componant/Section5/page";
+import Section5 from "./Componant/OurCustomrs /page";
 import Section6 from "./Componant/OurService/page";
 import Section7 from "./Componant/OurVision/page";
 import Section8 from "./Componant/OurOffers/page";
