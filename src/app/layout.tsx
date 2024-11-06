@@ -3,13 +3,13 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Headers from "./Componant/Headers/page";
 import Start from "./Componant/start/page";
-import Section3 from "./Componant/Hero/page";
-import Section4 from "./Componant/OurBlog/page";
-import Section5 from "./Componant/OurCustomrs/page";
-import Section6 from "./Componant/OurService/page";
-import Section7 from "./Componant/OurVision/page";
-import Section8 from "./Componant/OurOffers/page";
-import Section9 from "./Componant/OurSeen/page";
+import Hero from "./Componant/Hero/page";
+import OurBlog from "./Componant/OurBlog/page";
+import OurCustomrs from "./Componant/OurCustomrs/page";
+import OurService from "./Componant/OurService/page";
+import OurVision from "./Componant/OurVision/page";
+import OurOffers from "./Componant/OurOffers/page";
+import OurSeen from "./Componant/OurSeen/page";
 import Footer from "./Componant/Footer/page";
 
 
@@ -43,13 +43,13 @@ export default function RootLayout ( {
       <body className={`${ geistSans.variable } ${ geistMono.variable } antialiased`}>
         <Headers />
         <Start />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
-        <Section7 />
-        <Section8 />
-        <Section9 />
+        <Hero/>
+        <OurBlog />
+        <OurCustomrs />
+        <OurService />
+        <OurVision />
+        <OurOffers />
+        <OurSeen />
         <Footer />
         {children}
       </body>

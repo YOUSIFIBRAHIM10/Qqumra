@@ -3,7 +3,7 @@ import Image from "next/image"
 
 
 
-export default function Section9 ()
+export default function OurSeen ()
 {
     return <>
         <section className=" relative flex justify-center items-center w-full shrink-0 bg-[#FFF] my-[100px]">

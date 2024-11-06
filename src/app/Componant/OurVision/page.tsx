@@ -3,7 +3,7 @@ import Image from "next/image"
 
 
 
-export default function Section7 ()
+export default function OurVision ()
 {
     return <>
         <section className=" w-full h-[500px] bg-[#FFF] mt-[50px]  flex py-[40px] px-[145px] flex-col justify-center items-center " >

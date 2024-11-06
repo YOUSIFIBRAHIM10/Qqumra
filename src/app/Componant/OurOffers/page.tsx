@@ -3,7 +3,7 @@ import Image from "next/image"
 
 
 
-export default function Section8 ()
+export default function OurOffers ()
 {
     return <>
         <section className="  w-full h-[770px] shrink-0 bg-[#f6f6f6c9]">

@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 
-export default function Section6 ()
+export default function OurService ()
 {
     return <>
         <section className="w-full flex py-[40px] px-[145px] flex-col justify-center items-center gab-[10px]  bg-[#F7F7F8]">
